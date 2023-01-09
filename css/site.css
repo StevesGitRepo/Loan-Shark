@@ -6,6 +6,7 @@
   --silver-color: rgb(122, 143, 161);
   --logoBlue-color: rgb(125, 100, 250);
   --sinovaBlue-color: rgb(19, 205, 232);
+  --lsbg-color: rgb(16, 16, 16);
 }
 
 body {
@@ -85,4 +86,8 @@ pre[class*='language-'] {
 main > .container {
   padding: 60px 15px 0;
   margin-bottom: 5rem;
+}
+
+.darkBackground {
+  background-color: var(--lsbg-color);
 }
