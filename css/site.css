@@ -1,0 +1,88 @@
+:root {
+  --primary-color: rgb(57, 45, 114);
+  --secondary-color: #ff993b;
+  --dark-color: #292929;
+  --white-color: #e7e7e7;
+  --silver-color: rgb(122, 143, 161);
+  --logoBlue-color: rgb(125, 100, 250);
+  --sinovaBlue-color: rgb(19, 205, 232);
+}
+
+body {
+  color: var(--dark-color);
+}
+
+nav {
+  background-color: var(--dark-color);
+}
+
+footer {
+  background-color: var(--dark-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--primary-color);
+}
+
+.sticky-footer {
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+footer .social > a {
+  padding-right: 0rem;
+  color: var(--white-color);
+  opacity: 0.9;
+}
+
+footer .social > a:hover {
+  opacity: 1;
+  color: var(--logoBlue-color);
+}
+
+.footerContact {
+  font-size: small;
+}
+
+.bsIcon {
+  color: rgb(86, 61, 124);
+}
+
+.jsIcon {
+  color: rgb(240, 219, 79);
+}
+
+.html5Icon {
+  color: rgb(227, 76, 38);
+}
+
+.css3Icon {
+  color: rgb(38, 77, 228);
+}
+
+.checklist > li i {
+  color: var(--logoBlue-color);
+}
+
+.checklistText {
+  color: var(--primary-color);
+}
+
+code[class*='language-'],
+pre[class*='language-'] {
+  white-space: pre-wrap;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+main > .container {
+  padding: 60px 15px 0;
+  margin-bottom: 5rem;
+}
