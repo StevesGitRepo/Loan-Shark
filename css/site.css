@@ -7,10 +7,16 @@
   --logoBlue-color: rgb(125, 100, 250);
   --sinovaBlue-color: rgb(19, 205, 232);
   --lsbg-color: rgb(16, 16, 16);
+  --lsBlueFont-color: #e1e3f4;
 }
 
 body {
   color: var(--dark-color);
+}
+
+.brand-logo {
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 600;
 }
 
 nav {
@@ -27,7 +33,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--primary-color);
+  color: var(--lsBlueFont-color);
 }
 
 .sticky-footer {
@@ -56,12 +62,12 @@ footer .social > a:hover {
   color: rgb(86, 61, 124);
 }
 
-.jsIcon {
-  color: rgb(240, 219, 79);
-}
-
 .html5Icon {
   color: rgb(227, 76, 38);
+}
+
+.jsIcon {
+  color: rgb(240, 219, 79);
 }
 
 .css3Icon {
@@ -69,11 +75,11 @@ footer .social > a:hover {
 }
 
 .checklist > li i {
-  color: var(--logoBlue-color);
+  color: var(--lsBlueFont-color);
 }
 
 .checklistText {
-  color: var(--primary-color);
+  color: var(--lsBlueFont-color);
 }
 
 code[class*='language-'],
