@@ -8,6 +8,8 @@
   --sinovaBlue-color: rgb(19, 205, 232);
   --lsbg-color: rgb(16, 16, 16);
   --lsBlueFont-color: #e1e3f4;
+  --lsPinkFont-color: #ff66c4;
+  --lsDarkBlueFont-color: #a6ecff;
 }
 
 body {
@@ -17,6 +19,10 @@ body {
 .brand-logo {
   font-family: 'Big Shoulders Display', cursive;
   font-weight: 600;
+}
+
+.button-ls-home {
+  background-color: var(--lsDarkBlueFont-color);
 }
 
 nav {
@@ -75,7 +81,7 @@ footer .social > a:hover {
 }
 
 .checklist > li i {
-  color: var(--lsBlueFont-color);
+  color: var(--lsPinkFont-color);
 }
 
 .checklistText {
